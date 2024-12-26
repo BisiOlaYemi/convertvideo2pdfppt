@@ -22,7 +22,4 @@ Number of slides/pages.
 Desired resolution or quality.
 Download the generated file.
 
-# Technologies Used
-Programming Language: Python.
-Libraries: FFMPEG for video processing, Python-pptx for PowerPoint generation, ReportLab or PyPDF2 for PDF creation.
-Framework: FastAPI for API development.
+Framework: FastApi
