@@ -27,18 +27,19 @@ Framework: FastApi
 # Setup
 
 # Clone the repository
-git clone https://github.com/BisiOlaYemi/convertvideo2pdfppt
-cd convertvideo2pdfppt
+$ git clone https://github.com/BisiOlaYemi/convertvideo2pdfppt
+$ cd convertvideo2pdfppt
 
 # Create a virtual environment
-python -m venv env
-source env/bin/activate  # env\Scripts\activate
+$ python -m venv env
+$ source env/bin/activate    # Windows: env\Scripts\activate
 
 # Install the required dependencies
-pip install -r requirements.txt
+(env) $ pip install -r requirements.txt
 
 # Start the FastAPI application
-uvicorn app.main:app --reload
+(env) $ uvicorn app.main:app --reload
+
 
 
 
